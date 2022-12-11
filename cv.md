@@ -2,7 +2,7 @@
 
 # Anna Kulagina 
 ### email: annie2505@mail.ru
-### telegram: <a href="https://t.me/prostoptitch" target="_blank">@prostoptitch</a>
+### telegram: [@prostoptitch](https://t.me/prostoptitch){:target="_blank"}
 ------
 I am an aviation weather forecaster from Saint-Petersburg, Russia. I would like to acquire frontend development skills. 
 
@@ -18,7 +18,7 @@ Nowadays I have basic knowledge of:
 * 2021-2022 Yandex.Practicum
 
 ### Experience 
-You should check my <a href="https://practicum.yandex.ru/" target="_blank">Yandex.Practicum</a> project <a href="https://annie2505.github.io/mesto/" target="_blank">'Mesto'</a>['Mesto'] about creating a personal list of interesting places you would like to visit :world_map:
+You should check my [Yandex.Practicum](https://practicum.yandex.ru/){:target="_blank"} project ['Mesto'](https://annie2505.github.io/mesto/){:target="_blank"} about creating a personal list of interesting places you would like to visit :world_map:
 
 **Project description**
 
