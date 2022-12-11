@@ -1,8 +1,8 @@
-<img src="./profile.jpg" width="200">
+<img src="./profile.jpg" height="300" width="300">
 
 # Anna Kulagina 
 ### email: annie2505@mail.ru
-### telegram: @prostoptitch
+### telegram: [@prostoptitch](https://t.me/prostoptitch)
 ------
 I am an aviation weather forecaster from Saint-Petersburg, Russia. I would like to acquire frontend development skills. 
 
