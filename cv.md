@@ -1,4 +1,4 @@
-<img src="./profile.jpg" height="300" width="300">
+<img src="./profile.jpg" width="300">
 
 # Anna Kulagina 
 ### email: annie2505@mail.ru
