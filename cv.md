@@ -1,4 +1,4 @@
-<img src="./me.jpg" width="200">
+<img src="./profile.jpg" width="200">
 
 # Anna Kulagina 
 ### email: annie2505@mail.ru
@@ -21,7 +21,8 @@ Nowadays I have basic knowledge of:
 You should check my [Yandex.Practicum](https://practicum.yandex.ru/) project ['Mesto'](https://annie2505.github.io/mesto/) about places you would like to visit :world_map:
 
 **Project description**
-the main goal was working with popup windows and forms.
+
+The main goal was working with popup windows and forms.
 Accept adaptive web design a *javascript* language is used here. 
 Styles are organized with BEM **nested** file structure.
 
