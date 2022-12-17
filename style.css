@@ -1,3 +1,8 @@
 .page {
-    background-color: rgb(252, 234, 135);
-    }
+  text-align: center;
+  background-color: rgb(252, 234, 135);
+}
+
+.avatar {
+    width: 200px;
+}
