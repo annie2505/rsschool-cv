@@ -1,62 +1,98 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
+  <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>CV</title>
     <link rel="stylesheet" href="./style.css">
-</head>
-<body class="page">
-    <header>
+    <link rel="icon" href="./assets/img/favicon.ico">
+  </head>
+  <body class="page">
+    <header class="header">
+      <div class="profile-info">
         <img class="avatar" src="./assets/img/profile.jpg" alt="my photo">
-        <p>Anna Kulagina</p>
+        <h1 class="header-title">Anna Kulagina</h1>
+        <p>e-mail: <a href="annie2505@mail.ru">annie2505@mail.ru</a></p>
+        <p>telegram: <a href="https://t.me/prostoptitch/">@prostoptitch</a></p>
+        <p>discord: annie2505</p>
+      </div>
+      <div class="about-info">
+        <p>I am an aviation weather forecaster from Saint-Petersburg, Russia. I would like to acquire frontend development skills.</p>
+      </div>
+
     </header>
-    <main>
-      <p>I am an aviation weather forecaster from Saint-Petersburg, Russia. I would like to acquire frontend development skills.</p>
+    <main class="main">
+      <section class="section">
+        <h2 class="section-title">Web skills</h2>
+        <div>
+          <p>Nowadays I have basic knowledge of:</p>
+          <ul class="skills-list">
+            <li>GIT</li>
+            <li>HTML5</li>
+            <li>CSS3</li>
+            <li>JavaScript</li>
+          </ul>
+        </div>
+      </section>
 
-      <p>Nowadays I have basic knowledge of:</p>
-        <ul>
-          <li>GIT</li>
-          <li>HTML5</li>
-          <li>CSS3</li>
-          <li>JavaScript</li>
-        </ul>
+      <section class="section">
+        <h2 class="section-title">Code example</h2>
+        <pre>
+          <code>
+            "function multiply(a, b) {
+              return a * b
+            }"
+          </code>
+        </pre>
+      </section>
 
+      <section class="section">
+        <h2 class="section-title">Education</h2>
+        <div>
+          <ul>
+            <li>2017 Saint Petersburg State University / Institute of Earth Sciences</li>
+            <li>2019 HTML Academy</li>
+            <li>2021-2022 Yandex.Practicum</li>
+          </ul>
+        </div>
+      </section>
 
-      <p>Education
-        * 2017 Saint Petersburg State University / Institute of Earth Sciences
-        * 2019 HTML Academy
-        * 2021-2022 Yandex.Practicum
+      <section class="section">
+        <h2 class="section-title">Experience</h2>
+        <div>
+          <p>You should check my <a href="https://practicum.yandex.ru/">Yandex.Practicum</a> project <a href="https://annie2505.github.io/mesto/">'Mesto'</a> about creating a personal list of interesting places you would like to visit.</p>
+          <p><i>Project description</i></p>
+          <p>The main goal was working with popup windows and forms. Accept adaptive web design a <b>javascript</b> language is used here. Styles are organized with BEM <i>nested</i> file structure.</p>
+          <p><i>Features</i></p>
+          <ol>
+            <li>Work with popups (smooth opening/closing)</li>
+            <li>Work with forms</li>
+            <li>New elements adding and removing</li>
+            <li>'Like' tapping on interesting elements</li>
+            <li>Popup window closing using keyboard and overlay clicking</li>
+            <li>Form validation</li>
+          </ol>
+          <p><i>Languages used</i></p>
+          <ul>
+            <li>HTML5</li>
+            <li>CSS3</li>
+            <li>Javascript</li>
+          </ul>
+        </div>
+      </section>
 
-        Experience
-        You should check my [Yandex.Practicum](https://practicum.yandex.ru/) project ['Mesto'](https://annie2505.github.io/mesto/) about creating a personal list of interesting places you would like to visit :world_map:
-
-        **Project description**
-
-        The main goal was working with popup windows and forms.
-        Accept adaptive web design a *javascript* language is used here.
-        Styles are organized with BEM **nested** file structure.
-
-        **Features**
-        * Work with popups (smooth opening/closing)
-        * Work with forms
-        * New elements adding and removing
-        * 'Like' tapping on interesting elements
-        * Popup window closing using keyboard and overlay clicking
-        * Form validation
-
-        **Languages used**
-        * HTML5
-        * CSS3
-        * Javascript
-
-        ### Language skills
-        English - Upper-Intermediate
-      </p>
+      <section class="section">
+        <h2 class="section-title">Language skills</h2>
+        <p>English - Upper-Intermediate</p>
+      </section>
     </main>
-    <footer>
-      <a href="https://annie2505.github.io/rsschool-cv/">https://annie2505.github.io/rsschool-cv/</a>
+    <footer class="footer">
+      <p>GitHub - <a href="https://github.com/annie2505">annie2505</a></p>
+      <p>2022</p>
+      <a class="rsschool-logo" href="https://rs.school/js/">
+        <img class="rs-logo" src="./assets/svg/rs_school_js.svg" alt="RS School logo">
+      </a>
     </footer>
-</body>
+  </body>
 </html>
