@@ -1,3 +1,73 @@
+@font-face {
+  font-family: "Alice";
+  src: url("./assets/fonts/Alice-Regular.ttf");
+}
+
 .page {
-    background-color: rgb(252, 234, 135);
-    }
+  max-width: 1440px;
+  min-height: 100vh;
+  margin: 0 auto;
+  font-family: "Alice";
+  font-size: 18px;
+  color: rgb(63, 39, 17);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  border: 1px dashed rgb(63, 39, 17);
+}
+
+.header {
+  background-color: rgb(223, 219, 222);
+  min-width: 400px;
+  text-align: center;
+  padding: 20px 100px;
+  display: flex;
+}
+
+.header-title {
+  margin: 0;
+}
+
+.profile-info {
+  min-width: 400px;
+}
+
+.about-info {
+  text-align: left;
+}
+
+.avatar {
+  width: 200px;
+  border-radius: 50%;
+}
+
+.skills-list {
+  text-align: left;
+}
+
+.main {
+  background-color: #fff;
+  padding: 20px 100px;
+}
+
+.section {
+  display: flex;
+  /* justify-content: center; */
+}
+
+.section-title {
+  min-width: 400px;
+  margin: 16px 0;
+  text-align: center;
+}
+
+.footer {
+  padding: 20px 100px;
+  text-align: center;
+  display: flex;
+  justify-content: space-around;
+}
+
+.rs-logo {
+  width: 100px;
+}
